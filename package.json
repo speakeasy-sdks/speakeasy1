@@ -1,6 +1,6 @@
 {
   "name": "TahiraKhattak",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "author": "speakeasytryout",
   "scripts": {
     "prepare": "tsc --build"
