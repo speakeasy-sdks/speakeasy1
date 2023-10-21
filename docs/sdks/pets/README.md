@@ -106,7 +106,7 @@ import { TahiraKhattak } from "TahiraKhattak";
   });
 
   const res = await sdk.pets.showPetById({
-    petId: "South bandwidth male",
+    petId: "string",
   });
 
   if (res.statusCode == 200) {
