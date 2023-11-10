@@ -1,6 +1,4 @@
 <!-- Start SDK Example Usage -->
-
-
 ```typescript
 import { TahiraKhattak } from "TahiraKhattak";
 import { PetType } from "TahiraKhattak/dist/sdk/models/shared";
