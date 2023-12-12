@@ -21,10 +21,10 @@ Create a pet and key characteristics
 import { TahiraKhattak } from "TahiraKhattak";
 import { PetType } from "TahiraKhattak/dist/sdk/models/shared";
 
-(async() => {
+async function run() {
   const sdk = new TahiraKhattak({
     security: {
-      bearerAuth: "",
+      bearerAuth: "<YOUR_BEARER_TOKEN_HERE>",
     },
   });
 
@@ -36,7 +36,9 @@ import { PetType } from "TahiraKhattak/dist/sdk/models/shared";
   if (res.statusCode == 200) {
     // handle response
   }
-})();
+}
+
+run();
 ```
 
 ### Parameters
@@ -65,10 +67,10 @@ List all pets
 ```typescript
 import { TahiraKhattak } from "TahiraKhattak";
 
-(async() => {
+async function run() {
   const sdk = new TahiraKhattak({
     security: {
-      bearerAuth: "",
+      bearerAuth: "<YOUR_BEARER_TOKEN_HERE>",
     },
   });
 
@@ -77,7 +79,9 @@ import { TahiraKhattak } from "TahiraKhattak";
   if (res.statusCode == 200) {
     // handle response
   }
-})();
+}
+
+run();
 ```
 
 ### Parameters
@@ -106,10 +110,10 @@ Info for a specific pet
 ```typescript
 import { TahiraKhattak } from "TahiraKhattak";
 
-(async() => {
+async function run() {
   const sdk = new TahiraKhattak({
     security: {
-      bearerAuth: "",
+      bearerAuth: "<YOUR_BEARER_TOKEN_HERE>",
     },
   });
 
@@ -120,7 +124,9 @@ import { TahiraKhattak } from "TahiraKhattak";
   if (res.statusCode == 200) {
     // handle response
   }
-})();
+}
+
+run();
 ```
 
 ### Parameters

@@ -1,12 +1,12 @@
-<!-- Start SDK Example Usage -->
+<!-- Start SDK Example Usage [usage] -->
 ```typescript
 import { TahiraKhattak } from "TahiraKhattak";
 import { PetType } from "TahiraKhattak/dist/sdk/models/shared";
 
-(async () => {
+async function run() {
     const sdk = new TahiraKhattak({
         security: {
-            bearerAuth: "",
+            bearerAuth: "<YOUR_BEARER_TOKEN_HERE>",
         },
     });
 
@@ -18,7 +18,9 @@ import { PetType } from "TahiraKhattak/dist/sdk/models/shared";
     if (res.statusCode == 200) {
         // handle response
     }
-})();
+}
+
+run();
 
 ```
-<!-- End SDK Example Usage -->
+<!-- End SDK Example Usage [usage] -->
