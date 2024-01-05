@@ -1,0 +1,63 @@
+lockVersion: 2.0.0
+id: 8212f017-6ff7-4f83-87fd-37cb671feb25
+management:
+  docChecksum: 54fce703c0e40f21dcd69c724618bd14
+  docVersion: 1.0.0
+  speakeasyVersion: internal
+  generationVersion: 2.225.2
+  releaseVersion: 0.9.1
+  configChecksum: 401fa036ba33e3679c9b494cc26758e8
+  repoURL: https://github.com/speakeasy-sdks/speakeasy1.git
+  repoSubDirectory: .
+  installationURL: https://github.com/speakeasy-sdks/speakeasy1
+  published: true
+features:
+  typescript:
+    core: 3.4.1
+    globalSecurity: 2.82.2
+    globalServerURLs: 2.82.1
+generatedFiles:
+  - src/sdk/pets.ts
+  - src/sdk/sdk.ts
+  - .eslintrc.yml
+  - jest.config.js
+  - package-lock.json
+  - package.json
+  - src/index.ts
+  - src/internal/utils/contenttype.ts
+  - src/internal/utils/headers.ts
+  - src/internal/utils/index.ts
+  - src/internal/utils/pathparams.ts
+  - src/internal/utils/queryparams.ts
+  - src/internal/utils/requestbody.ts
+  - src/internal/utils/retries.ts
+  - src/internal/utils/security.ts
+  - src/internal/utils/utils.ts
+  - src/sdk/index.ts
+  - src/sdk/models/errors/sdkerror.ts
+  - src/sdk/types/index.ts
+  - src/sdk/types/rfcdate.ts
+  - tsconfig.json
+  - src/sdk/models/operations/createpets.ts
+  - src/sdk/models/operations/listpets.ts
+  - src/sdk/models/operations/showpetbyid.ts
+  - src/sdk/models/shared/error.ts
+  - src/sdk/models/shared/pet.ts
+  - src/sdk/models/shared/pettype.ts
+  - src/sdk/models/shared/security.ts
+  - src/sdk/models/errors/index.ts
+  - src/sdk/models/operations/index.ts
+  - src/sdk/models/shared/index.ts
+  - docs/sdk/models/operations/createpetsresponse.md
+  - docs/sdk/models/operations/listpetsrequest.md
+  - docs/sdk/models/operations/listpetsresponse.md
+  - docs/sdk/models/operations/showpetbyidrequest.md
+  - docs/sdk/models/operations/showpetbyidresponse.md
+  - docs/sdk/models/shared/errort.md
+  - docs/sdk/models/shared/pet.md
+  - docs/sdk/models/shared/pettype.md
+  - docs/sdk/models/shared/security.md
+  - docs/sdks/tahirakhattak/README.md
+  - docs/sdks/pets/README.md
+  - USAGE.md
+  - .gitattributes
