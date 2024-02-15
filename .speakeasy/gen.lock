@@ -4,16 +4,16 @@ management:
   docChecksum: 54fce703c0e40f21dcd69c724618bd14
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.225.2
-  releaseVersion: 0.9.1
-  configChecksum: 401fa036ba33e3679c9b494cc26758e8
+  generationVersion: 2.258.2
+  releaseVersion: 0.9.2
+  configChecksum: cca7612ef4c6c6394241ba61488bad86
   repoURL: https://github.com/speakeasy-sdks/speakeasy1.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/speakeasy1
   published: true
 features:
   typescript:
-    core: 3.4.1
+    core: 3.4.7
     globalSecurity: 2.82.2
     globalServerURLs: 2.82.1
 generatedFiles:
