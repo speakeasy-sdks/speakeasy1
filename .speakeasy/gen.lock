@@ -3,19 +3,19 @@ id: 8212f017-6ff7-4f83-87fd-37cb671feb25
 management:
   docChecksum: 54fce703c0e40f21dcd69c724618bd14
   docVersion: 1.0.0
-  speakeasyVersion: internal
-  generationVersion: 2.258.2
-  releaseVersion: 0.9.2
-  configChecksum: cca7612ef4c6c6394241ba61488bad86
+  speakeasyVersion: 1.207.1
+  generationVersion: 2.280.6
+  releaseVersion: 0.9.3
+  configChecksum: d73d789e41a92fce3ff78d18ed3bef52
   repoURL: https://github.com/speakeasy-sdks/speakeasy1.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/speakeasy1
   published: true
 features:
   typescript:
-    core: 3.4.7
-    globalSecurity: 2.82.2
-    globalServerURLs: 2.82.1
+    core: 3.4.8
+    globalSecurity: 2.82.4
+    globalServerURLs: 2.82.2
 generatedFiles:
   - src/sdk/pets.ts
   - src/sdk/sdk.ts
